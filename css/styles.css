@@ -1,14 +1,20 @@
 @charset "UTF-8";
 /* Bootstrap */
-.btn-primary {
+.btn, .btn-primary {
 	color: #000000;
 	background-color: #b7d5c7;
-	border: 0px;
+	border: 0px solid #b7d5c7;
 }
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn,
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
 	color: #000000;
 	background-color: #b7d5c7;
-	border: 0px;
+	border: 0px solid #b7d5c7;
+} 
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+	color: #000000;
+	background-color: #cfcfe5;
+	border: 0px solid #cfcfe5;	
 }
 .navbar {
 	font-family: 'Varela Round', sans-serif;
